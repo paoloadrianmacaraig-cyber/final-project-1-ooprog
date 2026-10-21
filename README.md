@@ -21,7 +21,7 @@ Each member committed their own files to their own folder. The four folders toge
 
 - [Project Documentation (PDF)](documentation/Project_Documentation.pdf): design, task division, input rules, design rationale, diagrams, and our test guide
 - [Sample Run (PDF)](documentation/Airline_Sample_Run.pdf): one full session of the program, every screen and error message
-- Google Docs version: (https://docs.google.com/document/d/1fJWcjYEtMYQCCSK5_JeBxx0kvA6RGNDKWx_iYNuTqY0/edit?usp=sharing)
+- [Project Documentation (Google Docs)](https://docs.google.com/document/d/1fJWcjYEtMYQCCSK5_JeBxx0kvA6RGNDKWx_iYNuTqY0/edit?usp=sharing): the same document, online
 
 ## How to run
 
