@@ -1,5 +1,3 @@
-package Macaraig;
-
 public final class UserManagementFlow {
 
     private UserManagementFlow() {

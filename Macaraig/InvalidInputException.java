@@ -1,5 +1,3 @@
-package Macaraig;
-
 public class InvalidInputException extends AirlineException {
 
     private static final long serialVersionUID = 1L;

@@ -1,5 +1,3 @@
-package Macaraig;
-
 public class Passenger extends User {
 
     private static final long serialVersionUID = 1L;

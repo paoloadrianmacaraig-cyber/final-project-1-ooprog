@@ -1,5 +1,3 @@
-package Macaraig;
-
 public class Staff extends User {
 
     private static final long serialVersionUID = 1L;
