@@ -9,7 +9,8 @@ airline-data.ser.tmp
 e-ticket-*.txt
 
 # Editor and OS files
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .idea/
 *.iml
 .DS_Store
