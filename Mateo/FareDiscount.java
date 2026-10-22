@@ -1,4 +1,4 @@
-package Mateo;
+
 
 public enum FareDiscount {
     NONE("None", 0.0, false),

@@ -1,4 +1,4 @@
-package Mateo;
+
 
 public interface PaymentStrategy {
 
