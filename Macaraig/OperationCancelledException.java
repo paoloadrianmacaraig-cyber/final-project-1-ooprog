@@ -1,5 +1,8 @@
-package Macaraig;
+public class OperationCancelledException extends RuntimeException {
 
-public class OperationCancelledException {
+    private static final long serialVersionUID = 1L;
 
+    public OperationCancelledException() {
+        super("Cancelled. Nothing was saved.");
+    }
 }

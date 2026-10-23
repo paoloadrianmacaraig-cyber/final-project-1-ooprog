@@ -1,0 +1,17 @@
+# Compiled code
+out/
+bin/
+*.class
+
+# Saved data and e-tickets the program writes when it runs
+airline-data.ser
+airline-data.ser.tmp
+e-ticket-*.txt
+
+# Editor and OS files
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

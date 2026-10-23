@@ -1,0 +1,63 @@
+AIRLINE RESERVATION SYSTEM - TEST ACCOUNTS
+==========================================
+
+These sample accounts are created the first time the program runs (when
+there is no airline-data.ser file yet). Use them to test each role.
+
+
+WHERE TO LOG IN
+---------------
+Passengers log in with "1 - Login".
+Admin and Staff log in with "4 - Staff Portal".
+An account used on the wrong screen is refused.
+
+
+ACCOUNTS
+--------
+Role        Log in through     Username       Password
+Admin       Staff Portal       admin          admin123
+Staff       Staff Portal       staff01        staff123
+Passenger   Login              passenger01    passenger123
+
+New passenger accounts can be made with "2 - Create Account".
+New Staff accounts can only be made by an Admin (Manage Users).
+
+
+SAMPLE BOOKINGS (Manage Booking / Check In / Cancel use PNR + last name)
+------------------------------------------------------------------------
+PNR       Last name   What it is
+RYS4K7    Reyes       Family of 3 (adult, child, infant) on AB101 (Air
+                      Abesamis), Manila to Cebu. Leaves about 6 hours after
+                      the first run, so check-in is already open.
+GRC8M2    Garcia      Senior citizen in Business on MW201 (Mateo Airways),
+                      Manila to Davao.
+
+
+SAMPLE FLIGHTS WORTH KNOWING
+----------------------------
+Flight numbers start with the airline's code:
+MW = Mateo Airways, AB = Air Abesamis, TF = TengoFly, PM = PAM Aviation.
+
+TF111, AB105, MW701, TF115   Manila to Cebu, 2 days after the first run:
+                             four flights, three airlines (compare prices)
+AB105                        Other Air Abesamis Manila to Cebu flight
+                             (try Change Flight on RYS4K7)
+MW203                        Other Mateo Airways Manila to Davao flight
+                             (try Change Flight on GRC8M2)
+TF111 -> TF115               Book TF111, then try Change Flight (TengoFly fee)
+PM301, PM305, PM401, PM601   PAM Aviation (ATR 72, no pets, bags up to 20 kg)
+MW205                        Delayed
+AB901                        Cancelled (can't be booked)
+Flight Status (main menu, no login): try AB101, MW205, AB901
+
+
+TEST PAYMENT DETAILS (fake, but pass the format checks)
+-------------------------------------------------------
+Card     4111 1111 1111 1111   expiry: any future month (e.g. 12/28)   CVV: 123
+GCash    09171234567
+PayPal   test@example.com
+
+
+START OVER WITH FRESH SAMPLE DATA
+---------------------------------
+Close the program, delete airline-data.ser, and run it again.
