@@ -134,3 +134,4 @@ public final class CheckInFlow {
             System.out.println("  Gate closes 15 minutes before departure.");
         }
     }
+}
